@@ -6,8 +6,8 @@ public class OnlineReservationSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Simulated user data (for demonstration purposes)
-        String validUsername = "user";
+        // Simulated User data (for demonstration purposes)
+        String validUsername = "User";
         String validPassword = "pass";
 
         String username, password;
@@ -58,7 +58,7 @@ public class OnlineReservationSystem {
         String trainName = "Express Train";
 
         System.out.println("Enter your basic details:");
-        // Collect and store user details
+        // Collect and store User details
 
         System.out.println("Available train: " + trainName + " (Number: " + trainNumber + ")");
         // Collect and store class, date, departure, and destination details
